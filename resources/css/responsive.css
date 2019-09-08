@@ -1,0 +1,123 @@
+
+@media only screen and (min-width:1200px){
+    .sticky .logo{
+        margin-left: 12rem;
+    }
+    
+    .sticky .main-nav{
+        margin-right: 10rem;
+    }
+}
+
+
+@media only screen and (max-width:1200px){
+    .sticky .logo{
+        margin-left: 5.5rem;
+    }
+    
+    .sticky .main-nav{
+        margin-right: 5.5rem;
+    }
+}
+
+
+@media only screen and (max-width:1024px){
+    
+}
+
+
+@media only screen and (max-width:980px){
+    .hero-text-box{
+        top: 25%;
+    }
+    
+    .main-nav{
+        display: none;
+    }
+    
+    .mobile-menu span{
+        display: block;
+    }
+    
+    .mobile-menu{
+    margin-left: auto;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+   .skill-prograss-container{
+        margin-top: 5rem;
+        padding: 0;
+    }
+    
+    .blog-container .box{
+        margin-top: 3rem;
+    }
+    
+    .copyright p{
+        text-align: center;
+    }
+    
+    .social-link-list{
+        float: none;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    h1{
+        font-size: 3rem;
+    }
+    
+    .little-description{
+        width: 100%;
+    }
+    
+    .about-image{
+        max-width: 30rem;
+        margin-bottom: 2rem;
+    }
+    
+    .hero-text-box{
+        padding: 0 2rem;
+    }
+    
+    .hero-text-box .little-description{
+        font-size: 1.6rem;
+    }
+    
+    .logo{
+        margin-left: 3rem;
+    }
+    
+    .mobile-menu{
+        margin-right: 2rem;
+    }
+    
+    .sticky .logo{
+        margin-left: 3rem;
+    }
+    
+    .sticky .mobile-menu{
+        margin-right: 2rem;
+    }
+}
+
+
+@media only screen and (max-width:320px){
+    
+    .about-image {
+	    width: auto;
+        height: 100;
+    }
+    
+    
+    .client-title {
+        float: left;
+        padding: 0rem;
+        width: 14rem;
+        padding-right: 2rem;
+    }
+}
